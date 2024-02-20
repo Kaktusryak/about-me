@@ -6,7 +6,12 @@ export default function NoPage(){
 
         <div>
             <div className="nav"><Navbar /></div>
-            <h1>Nothing here, this page does not exist</h1>
+            <div className="container">
+                <section>
+                    <h1>Click on the buttons above</h1>
+                </section>
+                
+            </div>
         </div>
     )
 }

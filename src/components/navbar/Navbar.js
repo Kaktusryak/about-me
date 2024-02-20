@@ -5,9 +5,9 @@ export default function Navbar(){
     return(
        <div className="navbar">
         {/* <p>Navbar</p> */}
-        <Link to="programming">Programming</Link>
-        <Link to="modelling">Modelling</Link>
-        <Link to="contacts">Contacts/About</Link>
+        <Link to="/programming">Programming</Link>
+        <Link to="/modelling">Modelling</Link>
+        <Link to="/contacts">Contacts/About</Link>
        </div>
     )
 }
