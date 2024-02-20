@@ -19,7 +19,7 @@ export default function Contacts(){
                 <ul className="contacts" data-aos="fade-right">
                     <li>Mail: denis1243qwerty@gmail.com</li>
                     <li>Telegram: @kaktusryak</li>
-                    <li>Phone: +38-096-238-68-23 {"(Calls/Telegram/Viber/WhatsApp"}</li>
+                    <li>Phone: +38-096-238-68-23 {"(Calls/Telegram/Viber/WhatsApp)"}</li>
                 </ul>
                 <IoIosArrowDown className="down" />
             </section>
