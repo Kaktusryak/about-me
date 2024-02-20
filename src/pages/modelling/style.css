@@ -4,3 +4,34 @@
     height: 50px;
     background-color: black
 }
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px; /* Gap between grid items */
+    justify-content: center; /* Align grid items horizontally centered */
+
+}
+.gallery img{
+    height: 180px;
+    width: 320px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.63);
+
+}
+.software{
+    margin-top: 20px;
+}
+.softTitle{
+    margin-top: 40px;
+}
+.artstation{
+    text-decoration: none;
+    color:#BED3F3;
+    margin-top: 40px;
+    border-bottom: 2px solid #BED3F3;
+    padding-bottom: 5px;
+
+}
+.artstation:hover{
+    border-bottom: 2px solid #83adec;
+}

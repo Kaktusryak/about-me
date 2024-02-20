@@ -5,6 +5,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Item from "../../components/item/Item"
 import { FaGithub } from "react-icons/fa";
+import { IoIosArrowDown } from "react-icons/io";
 
 
 
@@ -149,6 +150,7 @@ export default function Programming(){
                         })}
                     </ul>
                     <p className="addition">This list is constantly expanding {')'} <br/> The higher the item, the better I know it {'('}from left to right{')'} {')'}</p>
+                    <IoIosArrowDown className="down" />
                 </section>
                 <section>
                     <h3>Technologies I used:</h3>
@@ -158,11 +160,26 @@ export default function Programming(){
                         })}
                     </ul>
                     <p className="addition">The highness of the item does not depict my experience in it {')'}</p>
+                    <IoIosArrowDown className="down" />
                 </section> 
                 <section className="last">
                     <h3 >My GitHub:</h3>
                     <a data-aos="fade-right" href="https://github.com/Kaktusryak"><FaGithub className="git"/></a>
-                    <p className="addition">So you can see I'm not completely worthless</p>                
+                    <p className="addition">So you can see I'm not completely worthless</p>    
+                    <IoIosArrowDown className="down"/>            
+                </section> 
+                <section className="last">
+                    <h3 >My Certificates and courses I attended:</h3>
+                    <ul className="certificates" data-aos="fade-top">
+                        <li><a target="_blank" data-aos="fade-right" href="https://coursera.org/share/073aea26f95f9ec5a02521705175514d">Advanced React (Coursera)</a></li>
+                        <li><a target="_blank" data-aos="fade-right" href="https://coursera.org/share/e89cfa951eb71e264c1914265a8d5f32">TypeScript Tutorial (Coursera)</a></li>
+                        <li><a target="_blank" data-aos="fade-right" href="https://coursera.org/share/852210b21bc086631b3ed1e80a7e0768">Introduction to VueJS Framework (Coursera)</a></li>
+                        <li><a target="_blank" data-aos="fade-right" href="https://coursera.org/share/97987d053a34a9c575b38be6314e43c8">Foundations of Project Management (Coursera)</a></li>
+                        <li><a target="_blank" data-aos="fade-right" href="https://www.udemy.com/share/101WCC3@xcQp0mV2gTNnNr0kwxNyrJ1pSd_H884iiPVHkvKtD0ejHIPXzIg0j0DHYSh8DLb7WQ==/">Javascript + React (Udemy)</a></li>
+                        <li><a target="_blank" data-aos="fade-right" href="https://coursera.org/share/a8f731a39c1a609d14d631159f1dd058">AWS Cloud Technical Essentials (Coursera)</a></li>
+                        <li><a target="_blank" data-aos="fade-right" href="https://coursera.org/share/8969c0876cf3bf35d1cf4fb17fc10377">Introduction to Microsoft Azure Cloud Services (Coursera)</a></li>
+                    </ul>
+                    <p className="addition">Important and not so much</p>                
                 </section> 
             </div>
            
