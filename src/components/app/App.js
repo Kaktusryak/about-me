@@ -11,7 +11,7 @@ function App() {
       
       <BrowserRouter>
         <Routes>
-          <Route index  path="/programming" element={<Programming/>}/>
+          <Route index   element={<Programming/>}/>
           <Route path="/programming" element={<Programming/>}/>
           <Route path="/modelling" element={<Modelling/>}/>
           <Route path="/contacts" element={<Contacts/>}/>
