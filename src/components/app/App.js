@@ -11,11 +11,11 @@ function App() {
       
       <BrowserRouter>
         <Routes>
-          <Route index path="/about-me/programming" element={<Programming/>}/>
-          <Route path="/about-me/programming" element={<Programming/>}/>
-          <Route path="/about-me/modelling" element={<Modelling/>}/>
-          <Route path="/about-me/contacts" element={<Contacts/>}/>
-          <Route path="/about-me/*" element={<NoPage/>}/>
+          <Route index  element={<Contacts/>}/>
+          <Route path="/programming" element={<Programming/>}/>
+          <Route path="/modelling" element={<Modelling/>}/>
+          <Route path="/about-me" element={<Contacts/>}/>
+          <Route path="/*" element={<NoPage/>}/>
         </Routes>
       </BrowserRouter>
     </div>
