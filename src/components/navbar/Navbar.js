@@ -7,7 +7,7 @@ export default function Navbar(){
         {/* <p>Navbar</p> */}
         <Link to="/programming">Programming</Link>
         <Link to="/modelling">Modelling</Link>
-        <Link to="/about-me">Contacts/About</Link>
+        <Link to="/contacts">Contacts/About</Link>
        </div>
     )
 }
