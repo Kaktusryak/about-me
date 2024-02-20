@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    
+    
+   
+}
+section{
+    color: white;
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    
+    
+}
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    padding:0 20% ;
+    color: white !important;
+    
+}
+.main{
+    
+    height: 100vh !important;
+}
+html{
+    background-color: black;
+    scroll-snap-type: y mandatory ;
+    overflow-y: scroll;
+    height: 100vh;
+    position: relative;
+    
+    
+}
+p{
+    width: 80%;
+}
+ul{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px; /* Gap between grid items */
+    justify-content: center; /* Align grid items horizontally centered */
+    color: rgb(199, 199, 199);
+}
+.addition{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.596);
+}
+h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.git{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    border-bottom: 2px solid #a3a3a3;
+    padding-bottom: 5px;
+
+}
+.git:hover{
+    border-bottom: 2px solid #ffffff
+}
