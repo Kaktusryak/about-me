@@ -70,6 +70,16 @@ const languagesAndFrameworks = [
         level:'Basic',
         color:'#6d9ad5'
     },
+    {
+        name:'NodeJS',
+        level:'Basic',
+        color:'#6dfa65'
+    },
+    {
+        name:'Express',
+        level:'Basic',
+        color:'#7d95d5'
+    },
    
     
     
