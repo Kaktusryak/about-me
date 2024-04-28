@@ -188,6 +188,8 @@ export default function Programming(){
                         <li><a target="_blank" data-aos="fade-right" href="https://www.udemy.com/share/101WCC3@xcQp0mV2gTNnNr0kwxNyrJ1pSd_H884iiPVHkvKtD0ejHIPXzIg0j0DHYSh8DLb7WQ==/">Javascript + React (Udemy)</a></li>
                         <li><a target="_blank" data-aos="fade-right" href="https://coursera.org/share/a8f731a39c1a609d14d631159f1dd058">AWS Cloud Technical Essentials (Coursera)</a></li>
                         <li><a target="_blank" data-aos="fade-right" href="https://coursera.org/share/8969c0876cf3bf35d1cf4fb17fc10377">Introduction to Microsoft Azure Cloud Services (Coursera)</a></li>
+                        <li><a target="_blank" data-aos="fade-right" href="https://coursera.org/share/aadcb0450a0175cb0bec621976a7044c">Frontend development using React (Coursera)</a></li>
+                        
                     </ul>
                     <p className="addition">Important and not so much</p>                
                 </section> 
